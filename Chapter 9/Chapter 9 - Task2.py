@@ -14,4 +14,4 @@ def list_bigFiles(path):
             if os.path.getsize(os.path.join(foldername, filename)) >= 1048576:
                 print(os.path.abspath(filename) + ' :  ' + str(os.path.getsize(os.path.join(foldername, filename)) / (1024*1024)) + ' MB')
 
-list_bigFiles('F:\\Kiyosaki')
+list_bigFiles('X:\\path\\somewhere')
